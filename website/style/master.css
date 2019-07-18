@@ -1,3 +1,43 @@
 * {
     box-sizing: border-box;
 }
+@font-face{
+    font-family: 'Source Sans Pro';
+    src: url(../fonts/SourceSansPro-Regular.otf);
+}
+@font-face{
+    font-family: 'Source Sans Pro';
+    src: url(../fonts/SourceSansPro-Bold.otf);
+    font-weight: bold;
+}
+body{
+    font-family: 'Source Sans Pro'
+}
+
+.cabecalho {
+    background-color: #fff
+}
+
+.logo{
+    background-image: url(../image/img/logotipo-preto.png);
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 53px;
+    text-indent: -9999px;
+    display: block;
+    margin: 0;
+}
+
+.menu-principal__btn{
+    display: block;
+    width: 50px;
+    height:50px;
+    text-indent: -9999px;
+    background-color: #fff;
+    background-image: url(../image/img/menuprincipal-btn-bg.png);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    border:solid #c4c4c4;
+    border-radius: 5px;
+
+}
