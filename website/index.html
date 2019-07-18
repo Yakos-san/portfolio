@@ -12,12 +12,12 @@
     <header class="cabecalho">
         <h1 class="logo">Design responsivo</h1>
         <nav class="menu-principal">
-            <button class="menu-principal__btn">Abrir/fechar menu</button>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre nós</a></li>
-                <li><a href="portfolio.html">Portifólio</a></li>
-                <li><a href="contato.html">Contato</a></li>
+            <button class="menu-principal__btn menu-principal__btn--fechar">Abrir/fechar menu</button>
+            <ul class="menu-principal__lista">
+                <li><a class="menu-principal__item menu-principal__item--atual" href="index.html">Home</a></li>
+                <li><a class="menu-principal__item" href="sobre.html">Sobre nós</a></li>
+                <li><a class="menu-principal__item" href="portfolio.html">Portifólio</a></li>
+                <li><a class="menu-principal__item" href="contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -54,16 +54,16 @@
             </section>
         </section><!--FIM Seção depoimentos-->
     </main>
-    <footer>
-        <div>
+    <footer class="rodape">
+        <div class="rodape_linha-1">
             <div> 
-                <a href="index.html">Design responsivo</a>
+                <a href="index.html" class="logo logo--branco">Design responsivo</a>
                 <p>Lorem ipsum dolor, sit amet consectetur
                     adipisicing elit. Quidem, atque molestias perferendis animi dolorum
                     officiis sed ipsum assumenda doloremque perspiciatis nulla, 
                     repellendus commodi at voluptatibus ipsam ad cumque dolore porro.</p>
             </div>
-            <div>
+            <div class="">
                 <h2>Social</h2>
                 <ul>
                     <li><a href="https://facebook.com"  target="_blank">Facebook</a></li>
@@ -71,7 +71,7 @@
                     <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
                 </ul>
             </div>
-            <div>
+            <div class="">
                 <h2>Links</h2>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -81,7 +81,7 @@
                 </ul>
             </div>
         </div>
-        <div>
+        <div class="rodape_linha-2">
             2019 - Lucas Willian. Todos os direitos reservados.
         </div>
     </footer>
