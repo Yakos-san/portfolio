@@ -74,15 +74,15 @@ body{
 .menu-principal__item--atual{
     color: #f44242;
 }
-/*rodape*/
 
+/*rodape*/
 .rodape{
     color: #fff;
 }
 .rodape_linha-1{
     background-color: #272525;
     background-image: url(../image/img/rodape-bg.jpg);
-    background-repeat: no-repeat;
+   
     background-size: cover;
     padding: 15px;
 }
