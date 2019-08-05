@@ -77,6 +77,9 @@ body{
 .rodape{
     color: #fff;
 }
+.rodape .logo{
+    margin-bottom:  20px;
+}
 .rodape_linha-1{
     background-color: #272525;
     background-image: url(../image/img/rodape-bg.jpg);
@@ -88,6 +91,10 @@ body{
     background-color: #000;
     text-align: center;
     padding: 15px;
+}
+.rodape__coluna{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .rodape__titulo{
     border-bottom: 1px solid #fff;
